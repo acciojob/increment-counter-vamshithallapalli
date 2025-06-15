@@ -4,7 +4,6 @@ const incrementButton = document.getElementById("incrementBtn");
 
 incrementButton.addEventListener('click', ()=>{
 	const currValue = parseInt(counterParagraph.textContent);
-	const alertText = toString(currValue);
-	alert(`${alertText}`);
+	alert(currValue.toString());
 	counterParagraph.textContent = currValue+1;
 })
