@@ -5,6 +5,6 @@ const incrementButton = document.getElementById("incrementBtn");
 incrementButton.addEventListener('click', ()=>{
 	const currValue = parseInt(counterParagraph.textContent);
 	const alertText = toString(currValue);
-	alert(`${currValue}`);
+	alert(`${alertText}`);
 	counterParagraph.textContent = currValue+1;
 })
